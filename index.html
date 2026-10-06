@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kathy Cheng Illustration Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Marcellusdisplay=swap" rel="stylesheet">
+
+<style>
+
+         body {
+            background: whitesmoke;
+        } #page {
+            width: 928px;
+            min-height: 1000px;
+            background: white;
+            border: 1px solid dimgray;
+            box-shadow: 2px 3px 6px gray;
+            margin: 24px auto;
+        } header {
+            width: 80%;
+            margin: 36px auto;
+        } h1 {
+            font: 48pt/1.4em "Marcellus", serif;
+            text-align: center;
+            color: #39C5BB;
+            margin-bottom: 10px;
+        } header p {
+            font: 14pt/1.4em "Marcellus", serif;
+            text-align: center;
+        } main {
+            width: 80%;
+            margin: 36px auto;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        } figure {
+            width: 200px;
+            margin: 18px;
+        } figure img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 1px solid dimgray;
+            box-shadow: 2px 3px 6px gray;
+            transition: transform 0.5s;
+        }figure img:hover {
+            transform: scale(1.05);
+        } figcaption {
+            font: 12pt/1.4em "Marcellus", serif;
+            text-align: center;
+            margin-top: 10px;
+        } table {
+            border-collapse: collapse;
+            border: 1px solid gray;
+            margin: 24px auto;
+            font: 12pt/1.4em "Marcellus", serif;
+            box-shadow: 2px 3px 6px gray;
+        } th, td {
+            border: 1px solid gray;
+            padding: 8px;
+        } tr:nth-child(odd) {
+            background: whitesmoke;
+        } table {
+            border-collapse: collapse;
+            border: 1px solid gray;
+            padding: 6px;
+            margin: 24px auto;
+            font: 14pt/1.4em "Marcellus", serif;
+            box-shadow: 2px 3px 6px gray;
+        } tr:nth-child(odd) {
+            background: whitesmoke;
+        } td {
+            padding: 3px 6px;
+        } th {
+            position: sticky;
+            top: 0;
+            background: white;
+        } form {
+            font: 14pt/1.4em "Marcellus", serif;
+            width: 60%;
+            margin: 36px auto;
+            background: whitesmoke;
+            border: 1px solid dimgray;
+            border-radius: 6px;
+            box-shadow: 2px 3px 6px darkgray;
+        } fieldset {
+            border: 1px solid dimgray;
+        } legend {
+            font: 24pt/1.4em "Marcellus", serif;
+            color: #39C5BB;
+        } #submit {
+            width: 120px;
+            height: 40px;
+            display: block;
+            margin: 24px auto;
+            font-size: 16pt;
+        }
+
+
+    
+
+
+
+</style>
+</head>
+<body>
+<div id="page">
+    <header>
+    <h1>My Illustration Portfolio</h1>
+    <p>A selection of illustrations by Kathy Cheng. </p>
+    </header>
+    <main>
+
+        <figure>
+        <a href="miku-full.png">
+        <img src="miku-thumb.png"
+         alt="Hatsune Miku illustration">
+         </a>
+         <figcaption>
+         Hatsune Miku<br>
+         Digital Illustration
+        </figcaption>
+        </figure>
+        <figure>
+        <a href="teto-full.png">
+        <img src="teto-thumb.png"
+         alt="Kasane Teto illustration">
+         </a>
+         <figcaption>
+         Kasane Teto<br>
+         Digital Illustration
+        </figcaption>
+        </figure>
+        <figure>
+        <a href="rin-full.png">
+        <img src="rin-thumb.png"
+        alt="Kagamine Rin illustration">
+        </a>
+        <figcaption>
+         Kagamine Rin<br>
+         Digital Illustration
+        </figcaption>
+        </figure>
+</main>
+    <table border=“0”>
+        <tr>
+        <th>Artwork</th>
+        <th>Format</th>
+        <th>Resolution</th>
+        <th>Year</th>
+        </tr>
+        <tr>
+        <td>Hatsune Miku</td>
+        <td>PNG</td>
+        <td>2894 × 4093</td>
+        <td>2026</td>
+        </tr>
+        <tr>
+        <td>Kasane Teto</td>
+        <td>PNG</td>
+        <td>1024 × 1024</td>
+        <td>2026</td>
+        </tr>
+        <tr>
+        <td>Kagamine Rin</td>
+        <td>PNG</td>
+        <td>1024 × 1024</td>
+        <td>2026</td>
+        </tr>
+        
+</table>
+<form>
+<fieldset>
+        <legend>Contact Me</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email"><br><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject"><br><br>
+        <p>Reason for Contact:</p>
+        <input type="radio" id="question" name="reason">
+        <label for="question">Question</label>
+        <input type="radio" id="commission" name="reason">
+        <label for="commission">Commission</label>
+        <input type="submit" id="submit" value="Submit">
+</fieldset>
+</form>
+</div>
+</body>
+</html>
